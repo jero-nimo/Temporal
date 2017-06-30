@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css\style.css">
+		<link rel="shortcut icon" href="../j.ico">
+		<h1>My Favorite Recipes</h1>
+		<div id="navegar">
+			<ul>
+				<li><a href="#Tacos">Tacos</a></li>
+				<li><a href="#Pizza">Pizza</a></li>
+				<li><a href="#Potatoes">Potatoes</a></li>
+				<li><a href="#musica">Canciones</a></li>
+				<li><a href="#videos">Videos</a></li>
+			</ul>
+		</div>
+	</head>
+
+	<body>
+		<div id="Tacos" class="receta">
+			<h2>Tacos</h2>
+			<img src="Imagenes\taco.jpg" alt="Imagen de un Taco">
+			<h3>List of ingredients:</h3>
+			<ul>
+				<li>Ingredient 1</li>
+				<li>Ingredient 2</li>
+				<li>Ingredient 3</li>
+			</ul>
+			<p>This is how you make recipe 1</p>
+			<ol>
+				<li>First Step</li>
+				<li>Second Step</li>
+				<li>Third Step</li>
+			</ol>
+		</div>
+
+		<div id="Pizza" class="receta">
+			<h2>Pizza</h2>
+			<img src="Imagenes\pizza.jpg" alt="Imagen de una Pizza">
+			<h3>List of ingredients:</h3>
+			<ul>
+				<li>Ingredient 1</li>
+				<li>Ingredient 2</li>
+				<li>Ingredient 3</li>
+			</ul>
+			<p>This is how you make recipe 2</p>
+			<ol>
+				<li>First Step</li>
+				<li>Second Step</li>
+				<li>Third Step</li>
+			</ol>
+		</div>
+
+		<div id="Potatoes" class="receta">
+			<h2>Potatoes</h2>
+			<img src="Imagenes\potato.jpg" alt="Imagen de una Papa">
+			<h3>List of ingredients:</h3>
+			<ul>
+				<li>Ingredient 1</li>
+				<li>Ingredient 2</li>
+				<li>Ingredient 3</li>
+			</ul>
+			<p>This is how you make recipe 3</p>
+			<ol>
+				<li>First Step</li>
+				<li>Second Step</li>
+				<li>Third Step</li>
+			</ol>
+		</div>
+
+		<div id="musica">
+			<h2>Canciones</h2>
+			<ul>
+				<div class="elemento">
+					<li id="BringMeToLife" class="cancion">
+						<h3>Evanescence - Bring Me To Life</h3>
+						<img src="bringmetolife.jpg" alt="Imagen del cd fallen con 'Bring me to life' escrito" title="Bring me to life"> <br/>
+						<audio src="Evanescence - Bring Me To Life.mp3" controls title="Evanescence - Bring Me To Life" class="controles">Tu explorador no soporta este tipo de archivo.</audio>
+					</li>
+				</div>
+			</ul>
+		</div>
+
+		<div id="videos">
+			<h2>Videos</h2>
+			<ul>
+				<li>
+					<h3>Evanescence - My heart is broken</h3>
+					<!-- En la siguiente linea se tiene el video, pero al presionarlo te abre una nueva ventana con el link que se coloque-->
+					<a target="_blank" href="http://www.google.com"><video  controls height="500" title="Evanescence - My heart is broken" poster="myheartisbroken.jpg" preload="auto"><source src="Evanescence - My Heart Is Broken.mp4" type="video/mp4">Tu explorador no soporta este archivo de video</video></a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

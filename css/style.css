@@ -1,0 +1,41 @@
+html, body > * {
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+
+h1 {
+  background: #8f8fff;
+  text-align: center;
+}
+
+#navegar {
+	background: aliceblue;
+	width: 20em;
+	margin-left: -200px;
+}
+
+#navegar:hover {
+	margin-left: 0;
+}
+
+.receta > img {
+	width: 300px;
+	padding: 7px;
+	border: 7px solid blue;
+}
+
+.receta {
+	margin-left: 40px;
+}
+
+.cancion > img {
+	width: 300px;
+}
+
+.elemento {
+	width: 300px;
+	padding: 5px;
+	background-color: #8f8fff;
+	border: 5px solid black;
+}
